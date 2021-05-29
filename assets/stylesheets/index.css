@@ -30,7 +30,7 @@ section{
 	height:100%;
     background-size:cover;
     background-position: center bottom;
-    z-index: -1;	
+    z-index: -3;	
     opacity:1;
     
 }
@@ -43,9 +43,10 @@ section{
 	height:100%;
     background-size:cover;
     background-position: center bottom;
-    z-index: -1;	
-    opacity:1;
+    z-index: -3;	
+    opacity:3;
     display: none;
+    
     
 }
 @media(max-width:750px){
@@ -145,7 +146,8 @@ section{
     display: flex;
     flex-direction: column;
     color:#124429;
-    margin-left: 100px;
+    /* margin-left: 100px; */
+    margin-left: 12%;
     margin-top:200px;
     
 
@@ -154,6 +156,7 @@ section{
 .section1_main__name{
      font-size: 2.5rem;
      color: #ff0054;
+     
 }
 
 .section1_main__contact{
@@ -186,7 +189,7 @@ section{
 
 .section2{
     display: flex;
-    
+    height: 100%;
 }
 
 .section2_background-image{
@@ -198,7 +201,7 @@ section{
 	height:100%;
     background-size:cover;
     z-index: -1;	  
-    opacity: 0.3; 
+    opacity: 0.2; 
     
 }
 
@@ -210,6 +213,8 @@ section{
     font-size: 1.4rem;
      margin-left:30%;
      margin-right: 3%;
+     margin-top:5%;
+     margin-bottom:5%;
      font-family: 'Spartan', sans-serif;
     line-height: 180%;
     font-weight: 900;
