@@ -130,13 +130,13 @@ section{
         margin-bottom: 20px;
     }
       .closemenu{
-          display:block;
+          display:block !important;
           position:absolute;
           top:0;
           left:5px;
       }
       .openmenu{
-         display:block;
+         display:block !important;
      }
 
   }
