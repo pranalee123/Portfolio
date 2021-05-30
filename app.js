@@ -9,7 +9,7 @@ const show = () => {
 }
 
 const close = () => {
-    sectionHeader.style.top = '-100%';
+    sectionHeader.style.top = '-100vh';
 }
 
 openMenu.addEventListener('click', show);
