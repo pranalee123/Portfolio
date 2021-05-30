@@ -50,7 +50,7 @@ section{
     
 }
 @media(max-width:750px){
-
+   
     .section1_background-image1{
         display: none;
     }  
@@ -122,7 +122,8 @@ section{
           justify-content: center;
           align-items:center;
           /* background-color: #c7c3c3; */
-          background-color:#c1c1c1;
+          /* background-color:#c1c1c1; */
+          background-color: white;
           transition:top 1s ease;
           display:none;
       }
