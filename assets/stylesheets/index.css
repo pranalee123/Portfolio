@@ -122,8 +122,8 @@ section{
           justify-content: center;
           align-items:center;
           /* background-color: #c7c3c3; */
-          /* background-color:#c1c1c1; */
-          background-color: white;
+          background-color:#c1c1c1;
+        
           transition:top 1s ease;
           display:none;
       }
