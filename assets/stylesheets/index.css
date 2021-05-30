@@ -134,9 +134,11 @@ section{
           position:absolute;
           top:0;
           left:5px;
+          z-index: 1;
       }
       .openmenu{
          display:block !important;
+         z-index: 1;
      }
 
   }
