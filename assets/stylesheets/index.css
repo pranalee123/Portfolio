@@ -268,32 +268,11 @@ section{
     color: #ff0054;
 }
 
-/* @media screen and (max-width:1030px){
-    .section2_paragraph{
-        font-size:1.2rem;    
-        margin-left: 5%;
-        
-    }
-}
-
-@media screen and (max-width:600px){
-    .section2_paragraph{
-        margin-left: 3%;
-        font-size:1rem; 
-        
-    }
-}
-
-@media screen and (max-width:350px){
-    .section2_paragraph{
-        font-size:0.8rem;    
-    }
-
-    } */
 
      @media screen and (max-width:850px){
         .section2_paragraph{
             margin:0 auto;
+            font-size: 1rem;
         }
      }
 
