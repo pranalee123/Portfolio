@@ -21,6 +21,12 @@ section{
     height:100vh;
 }
 
+.section1{
+    background-image: url(../images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+}
 .section1_background-image1{
 
 	position: absolute;
@@ -51,12 +57,19 @@ section{
 }
 @media(max-width:750px){
    
-    .section1_background-image1{
+    /* .section1_background-image1{
         display: none;
     }  
     .section1_background-image2{
         display: block;
         opacity: 0.2;
+    } */
+
+    .section1{
+        background-image: url(../images/img5.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+       
     }
 
 
@@ -67,6 +80,7 @@ section{
     font-size:1.2rem;
     font-weight: 900;
     padding-top:3%;
+    
 }
 
 .section1_header__link{
@@ -75,7 +89,7 @@ section{
    color:#124429;
    position: relative;
    font-weight:bolder;
-  
+   z-index: 1;
 }
 .section1_header__link:after {    
     background: none repeat scroll 0 0 transparent;
@@ -169,6 +183,8 @@ section{
     position: relative;
     
 }
+
+
 .section1_main__contact:after {    
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
@@ -192,7 +208,15 @@ section{
 
 .section2{
     display: flex;
+    width: 100%;
     height: 100%;
+    flex-direction: column;
+    align-content: center;
+    background-image: url(../images/pranali3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+    
 }
 
 .section2_background-image{
@@ -204,7 +228,7 @@ section{
 	height:100%;
     background-size:cover;
     z-index: -1;	  
-    opacity: 0.3; 
+    
     
 }
 
@@ -215,14 +239,17 @@ section{
     justify-content: center;
     font-size: 1.4rem;
      margin-left:30%;
-     margin-right: 3%;
+     margin-right: 10%;
      margin-top:5%;
      margin-bottom:5%;
      font-family: 'Spartan', sans-serif;
     line-height: 180%;
     font-weight: 900;
     color:#000328;
-    width: 90%;
+    width: 70%;
+    z-index: 10;
+    
+    
 }
 
 .section2_paragraph__p1{
@@ -241,7 +268,7 @@ section{
     color: #ff0054;
 }
 
-@media screen and (max-width:1030px){
+/* @media screen and (max-width:1030px){
     .section2_paragraph{
         font-size:1.2rem;    
         margin-left: 5%;
@@ -262,7 +289,26 @@ section{
         font-size:0.8rem;    
     }
 
+    } */
+
+     @media screen and (max-width:850px){
+        .section2_paragraph{
+            margin:0 auto;
+        }
+     }
+
+    .backtotop_link {
+        align-self: center;
+        margin: 2rem;
     }
+
+    .backtotop_link a{
+        color:black;
+        font-weight: 900;
+       
+    }
+
+
 .section3{
     display: flex;
     align-items: center;
