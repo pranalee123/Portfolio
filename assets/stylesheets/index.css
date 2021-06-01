@@ -408,13 +408,26 @@ section{
   
   .section4_cardtextarea {
     display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+  }
+
+  .section4_cardtextarea__para{
+    text-align: center;
+    margin:0.5rem;
+    line-height: 1.6;
+  }
+
+  .section4_cardtextarea__list{
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
   }
   .section4_cardtextarea__text{
       text-align: center;
       margin:1rem;
+      color:#ff0054;
   }
 .section5{
     height: 100%;
@@ -424,19 +437,9 @@ section{
     background-color: lightslategrey;
     
 }
-/* .section5_background-image{
-    
-    position: absolute;
-	top:400%;
-	left:0;
-	width:100%;
-	height:100%;
-    background-size:cover;
-    z-index: -1;	  
-    opacity: 0.3;    
-} */
+
 .section5_header{
-    /* color:#ff0054; */
+
     color:lightyellow;
     font-size: 2rem;
     padding-top:2em;
