@@ -24,7 +24,8 @@ section{
 .section1{
     background-image: url(../images/img1.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 90% 100%;
+    background-position: right;
    
 }
 .section1_background-image1{
